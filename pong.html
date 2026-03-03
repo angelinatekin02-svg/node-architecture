@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pong Game</title>
+</head>
+<body>
+    <canvas id="pongCanvas" width="800" height="400"></canvas>
+    <div class="scoreboard">
+        <h2>Player 1: <span id="player1Score">0</span></h2>
+        <h2>Player 2: <span id="player2Score">0</span></h2>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        const canvas = document.getElementById('pongCanvas');
+        const context = canvas.getContext('2d');
+
+        // Initialize game variables
+        let player1Score = 0;
+        let player2Score = 0;
+
+        // (Additional game logic will go here)
+    </script>
+</body>
+</html>
